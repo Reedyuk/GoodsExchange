@@ -13,7 +13,7 @@ import FontAwesomeKit
 /// View controller to show the products availiable for purchase.
 class ProductsTableViewController: UITableViewController {
     
-    private var goods = [Goods]()
+    private var goods = [Goods]()   ///the goods we can sell
         
     override func viewDidLoad() {
         super.viewDidLoad()

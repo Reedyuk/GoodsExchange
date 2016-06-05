@@ -8,9 +8,10 @@
 
 import UIKit
 
+/// View controller to show the availiable currencies
 class CurrenciesTableViewController: UITableViewController {
-
-    let currencies = Currency.getCurrencies((UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext)
+    ///What currencies we have on record.
+    private let currencies = Currency.getCurrencies((UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext)
     
     override func viewDidLoad() {
         super.viewDidLoad()

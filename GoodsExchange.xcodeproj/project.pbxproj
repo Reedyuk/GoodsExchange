@@ -16,7 +16,6 @@
 		00F769FA1D01BB5F00AE3952 /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769F91D01BB5F00AE3952 /* Goods.swift */; };
 		00F769FC1D01BB6500AE3952 /* Goods+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769FB1D01BB6500AE3952 /* Goods+CoreDataProperties.swift */; };
 		00F769FE1D01BB8500AE3952 /* ExchangeRateBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769FD1D01BB8500AE3952 /* ExchangeRateBrainTests.swift */; };
-		00F76A001D01BF1F00AE3952 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769FF1D01BF1F00AE3952 /* CoreDataHelper.swift */; };
 		00F76A021D01C2C600AE3952 /* CoreDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F76A011D01C2C600AE3952 /* CoreDataObject.swift */; };
 		00F76A041D01F20800AE3952 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F76A031D01F20800AE3952 /* ProductsTableViewController.swift */; };
 		00F76A081D01F51B00AE3952 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F76A071D01F51B00AE3952 /* ProductCell.swift */; };
@@ -64,7 +63,6 @@
 		00F769F91D01BB5F00AE3952 /* Goods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
 		00F769FB1D01BB6500AE3952 /* Goods+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Goods+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		00F769FD1D01BB8500AE3952 /* ExchangeRateBrainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRateBrainTests.swift; sourceTree = "<group>"; };
-		00F769FF1D01BF1F00AE3952 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		00F76A011D01C2C600AE3952 /* CoreDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObject.swift; sourceTree = "<group>"; };
 		00F76A031D01F20800AE3952 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		00F76A071D01F51B00AE3952 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				00FAA4D21D032D9700D75CFB /* String+Localizer.swift */,
-				00F769FF1D01BF1F00AE3952 /* CoreDataHelper.swift */,
 				00F76A011D01C2C600AE3952 /* CoreDataObject.swift */,
 				00F769DE1D01BAE600AE3952 /* ExchangeRateBrain.swift */,
 				00FAA4D61D034CF900D75CFB /* BasketBrain.swift */,
@@ -435,7 +432,6 @@
 				00FAA4D51D03446000D75CFB /* CheckoutCell.swift in Sources */,
 				00FAA4DB1D042A2200D75CFB /* Currency.swift in Sources */,
 				00F76A041D01F20800AE3952 /* ProductsTableViewController.swift in Sources */,
-				00F76A001D01BF1F00AE3952 /* CoreDataHelper.swift in Sources */,
 				00FAA4D31D032D9700D75CFB /* String+Localizer.swift in Sources */,
 				00FAA4DD1D042A2900D75CFB /* Currency+CoreDataProperties.swift in Sources */,
 				00FAA4E31D0442F500D75CFB /* CurrenciesTableViewController.swift in Sources */,

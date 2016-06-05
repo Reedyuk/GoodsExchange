@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+/// class to handle all the basket actions, e.g. add and remove items
 class BasketBrain : NSObject {
     static let sharedInstance = BasketBrain()   //singleton
     private var basket = [(Goods,Int)]()   /// the Global basket

@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// class to represent our items in the checkout screen
 class CheckoutCell: UITableViewCell {
 
     /// setupView: Method to setup cell with a checkout item

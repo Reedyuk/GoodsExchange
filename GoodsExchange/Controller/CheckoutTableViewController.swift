@@ -10,9 +10,10 @@ import UIKit
 import Siesta
 import FontAwesomeKit
 
+/// View controller to show the total of the users basket.
 class CheckoutTableViewController: UITableViewController, ResourceObserver {
 
-    private var basket = [(Goods, Int)]()
+    private var basket = [(Goods, Int)]()   ///items in the basket, array of tuples
     /// The status overlay
     var statusOverlay = ResourceStatusOverlay()
 

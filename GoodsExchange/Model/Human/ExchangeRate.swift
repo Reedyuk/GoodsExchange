@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 import UIKit
 
-
+/// class to hold the exchange rates
 class ExchangeRate: CoreDataObject {
     
     /// The name of the object

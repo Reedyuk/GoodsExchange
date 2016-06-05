@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 import UIKit
 
-
+/// class to hold the goods we can sell.
 class Goods: CoreDataObject {
 
     /// The name of the object

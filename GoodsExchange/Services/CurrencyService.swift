@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Siesta
 
-/// UserService class for user related operations
+/// class to handle any currency related network operations.
 class CurrencyService {
     
     private let webService = (UIApplication.sharedApplication().delegate as! AppDelegate).webService
