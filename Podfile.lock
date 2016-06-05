@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (3.4.0)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - Sheriff (0.3.2)
+  - Siesta/Alamofire (1.0-beta.6):
+    - Alamofire (> 2)
+    - Siesta/Core
+  - Siesta/Core (1.0-beta.6)
+
+DEPENDENCIES:
+  - FontAwesomeKit
+  - Sheriff
+  - Siesta/Alamofire (>= 1.0-beta.6)
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  Sheriff: d3d03fe6d35aa781e3f42d48f3fb53ed7d04958d
+  Siesta: 353fba713b4ce9112c26f6b5038ccebeb897f60b
+
+PODFILE CHECKSUM: 648c34ca38ff18f752e299611f47c531bcf5c0b2
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Currency" representedClassName=".Currency" syncable="YES">
+        <attribute name="isoCode" attributeType="String" minValueString="3" maxValueString="3" syncable="YES"/>
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+    </entity>
+    <entity name="ExchangeRate" representedClassName=".ExchangeRate" syncable="YES">
+        <attribute name="code" attributeType="String" minValueString="6" maxValueString="6" syncable="YES"/>
+        <attribute name="rate" attributeType="Double" minValueString="0" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Goods" representedClassName=".Goods" syncable="YES">
+        <attribute name="amount" attributeType="Decimal" minValueString="0" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currency" attributeType="String" defaultValueString="$" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Goods" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="Currency" positionX="-54" positionY="18" width="128" height="75"/>
+        <element name="ExchangeRate" positionX="-45" positionY="27" width="128" height="75"/>
+    </elements>
+</model>
