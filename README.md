@@ -12,6 +12,10 @@
 3. Tool tips to make the user aware that swiping a cell on the product screen removes items
 4. A nicer formatted currency screen.
 
+# Screenshots
 
 ![default](https://github.com/Reedyuk/GoodsExchange/blob/master/screenshots/default.png)
+
+How to remove items from basket.
+
 ![remove](https://github.com/Reedyuk/GoodsExchange/blob/master/screenshots/remove.png)
